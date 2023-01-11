@@ -4,3 +4,5 @@ __pycache__
 data.db
 *.pyc
 .DS_Store
+pylintrc
+find_current_interpreter_path.py
