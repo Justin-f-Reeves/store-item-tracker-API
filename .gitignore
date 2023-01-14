@@ -1,7 +1,7 @@
 .venv
 .vscode
 __pycache__
-# data.db
+data.db
 *.pyc
 .DS_Store
 pylintrc
