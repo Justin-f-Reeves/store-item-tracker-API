@@ -6,4 +6,4 @@ class UserModel(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     Username = db.Column(db.String(80), unique=True, nullable=False)
-    Password = db.Column(db.String(80), nullable=False)
+    Password = db.Column(db.String(256), nullable=False)
